@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>固定收款1元</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #ff3300;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .tip {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .qrcode-box {
+    margin: 24px 0;
+  }
+  .qrcode-box h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .qrcode-box img {
+    width: 280px;
+    max-width: 80%;
+    border-radius: 8px;
+  }
+  .note {
+    color: #999;
+    font-size: 14px;
+    margin-top: 24px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>固定收款 1 元</h1>
+    <p class="tip">请扫码后手动输入金额：1 元</p>
+
+    <div class="qrcode-box">
+      <h3>微信支付</h3>
+      <img src="weixin.png" alt="微信收款码">
+    </div>
+
+    <div class="qrcode-box">
+      <h3>支付宝支付</h3>
+      <img src="zhifubao.jpg" alt="支付宝收款码">
+    </div>
+
+    <p class="note">温馨提示：扫码后请手动输入金额 1 元</p>
+  </div>
+</body>
+</html>
+
